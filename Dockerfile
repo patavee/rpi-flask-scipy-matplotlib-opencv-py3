@@ -1,5 +1,5 @@
 
-FROM patavee/scipy-matplotlib-opencv-py3
+FROM patavee/rpi-scipy-matplotlib-opencv-py3
 MAINTAINER Patavee Charnvivit <patavee@gmail.com>
 
 RUN apt-get update && apt-get install -y \
